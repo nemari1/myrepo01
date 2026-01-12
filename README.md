@@ -1,4 +1,4 @@
-# myrepo01
+# QMEE
 Repository for assignment 1 - IN
 
 Freshwater snails (Planorbella pilsbryi) (n=96) were exposed over 28 days at control, low (100 particles/L), medium (10,000 particles/L), and high (1,000,000 particles/L) concentrations of a mixture of polyethylene terephthalate (PET) and nylon microfibers. This dataset documents the amount of nylon and PET microfibers found in snails in each treatment group following chemical digestion. Some biological questions I hope to answer from this dataset are: 
