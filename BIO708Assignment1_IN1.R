@@ -28,4 +28,8 @@ surveys |>
 
 ## BMB: please check/be more careful -- your code couldn't have run
 ## correctly because you gave the wrong file name ...
+
+## PS normality testing (e.g. Shapiro-Wilk) is much less important
+##  than you learn in intro stats ...
+
 ## mark: 1.9
