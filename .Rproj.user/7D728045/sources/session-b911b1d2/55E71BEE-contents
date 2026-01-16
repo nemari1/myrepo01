@@ -1,0 +1,4 @@
+library(dplyr)
+library(tidyr)
+library(readr)
+snail_data <- read_csv("C:/Users/noury/OneDrive/Desktop/R-Ecology-Workshop/data/raw/Snail_Microfiber_Excretion.csv")
