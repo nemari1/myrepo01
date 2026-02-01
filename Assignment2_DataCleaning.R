@@ -49,6 +49,8 @@ print(gg1 <- ggplot(long_snail, aes(x=Treatment_Group, y=Microfiber_Count)) + ge
 ## BMB: probably not (although some suggestion 
 gg1 + scale_y_log10() + stat_sum(alpha = 0.5)
 
+## JD: You want to have the scripts put the rds files inside the repo directory, then you want to ignore the data directory.
+## Using "../" from the top directory of your repo means your code is unlikely to be portable
 ## BMB: this is going to be a problem since this data structure isn't in the repo
-saveRDS(snail_data, file = "../data/cleaned/snail_data_clean.rds")
-saveRDS(long_snail, file = "../data/cleaned/long_snail_clean.rds")
+saveRDS(snail_data, file = "data/cleaned/snail_data_clean.rds")
+saveRDS(long_snail, file = "data/cleaned/long_snail_clean.rds")
