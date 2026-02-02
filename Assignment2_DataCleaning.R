@@ -54,8 +54,12 @@ gg1 + scale_y_log10() + stat_sum(alpha = 0.5)
 ## BMB: this is going to be a problem since this data structure isn't in the repo
 saveRDS(snail_data, file = "data/cleaned/snail_data_clean.rds")
 <<<<<<< HEAD
+<<<<<<< HEAD
 saveRDS(long_snail, file = "data/cleaned/snail_data_long.rds")
 
+=======
+saveRDS(long_snail, file = "data/cleaned/long_snail_clean.rds")
+>>>>>>> 6eb3b5580dfb9ed4f11a6c7caaba17b51a834014
 =======
 saveRDS(long_snail, file = "data/cleaned/long_snail_clean.rds")
 >>>>>>> 6eb3b5580dfb9ed4f11a6c7caaba17b51a834014
