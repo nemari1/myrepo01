@@ -2,12 +2,12 @@ library(dplyr)
 library(tidyr)
 library(readr) ## need this for read_csv
 ## getwd()
-## snail_data <- read_csv("../data/raw/Snail_Microfiber_Ingestion.csv")
+## snail_data <- read_csv("data/raw/Snail_Microfiber_Ingestion.csv")
 
 ## BMB: this doesn't work. Need to spend more time figuring out how directories
 ##  etc. work. -- your repo structure doesn't look the same as whatever the structure
 ##  on your computer is, it has to match (you should be working *in* the repo directory)
-snail_data <- read_csv("Snail_Microfiber_Ingestion.csv", show_col_types = FALSE)
+snail_data <- read_csv("data/raw/Snail_Microfiber_Ingestion.csv", show_col_types = FALSE)
 summary(snail_data)
 
 #characters should be factors in my dataset
@@ -50,5 +50,6 @@ print(gg1 <- ggplot(long_snail, aes(x=Treatment_Group, y=Microfiber_Count)) + ge
 gg1 + scale_y_log10() + stat_sum(alpha = 0.5)
 
 ## BMB: this is going to be a problem since this data structure isn't in the repo
-saveRDS(snail_data, file = "../data/cleaned/snail_data_clean.rds")
-saveRDS(long_snail, file = "../data/cleaned/long_snail_clean.rds")
+saveRDS(snail_data, file = "data/cleaned/snail_data_clean.rds")
+saveRDS(long_snail, file = "data/cleaned/snail_data_long.rds")
+
