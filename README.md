@@ -1,5 +1,16 @@
 # QMEE
 
+#Assignment 6 - IN
+
+Hypothesis: It is hypothesized that increased microfiber exposure will result in increased microfiber ingestion by snails because greater environmnetal availablity of pollutants will increase uptake. 
+
+My diagnostic plot shows if my residuals fit into my predicted model. After I used a log transformation, my residuals fit my model (seen by the triangles that match closely to the predicted straight red line with no extreme outliers). On the right, it says that the levene's test of variance was not significant (>0.05), and that my variance across and within treatment groups is similar, which means that my model seems to fit my data.
+
+My predictive plot calculates predicted values in different conditions, and can help with eyeballing differences between groups from the plot of means. In this plot, I can see that the predicted means for nylon and PET in my high treatment group are the highest, while my control groups are the lowest. This plot predicts that increasing exposure to microfibers increases ingestion.The predicted means for nylon are also higher than PET, which could suggest that fiber type affects micrfoiber ingestion.
+
+My Inferential plot compares each treatment group to the overall mean. Since the confidence intervals in my high treatment group are past the dotted line, this indicates that my high treatment group is clearly higher than the overall mean. Since my control effect group is before the dotted line, this means that my control groups is clearly lower than the overall mean. My low and medium treatment groups touch the dotted line, and are therefore somewhat close to the overall mean. This plot shows how my individual groups differ according to the mean across all of my groups, and helps me look at the magnitude of my responses.
+
+
 #Assignment 3 - IN
 
 For graph 1, I created a boxplot showing the microfiber ingestion count of nylon and PET across control low, medium and high treatment groups. I chose to put nylon and PET fiber counts beside each other so that I could observe the differences in ingestion of each fiber across different treatment groups. I chose a boxplot because I was curious to see the minimum, maximum, and median values at each treatment group as well as the interquartile range. The lines on the top and bottom show the range of my data while the dots show any outliers.
