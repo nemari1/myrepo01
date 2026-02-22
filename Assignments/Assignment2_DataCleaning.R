@@ -7,7 +7,7 @@ library(readr) ## need this for read_csv
 ## BMB: this doesn't work. Need to spend more time figuring out how directories
 ##  etc. work. -- your repo structure doesn't look the same as whatever the structure
 ##  on your computer is, it has to match (you should be working *in* the repo directory)
-snail_data <- read_csv("data/raw/Snail_Microfiber_Ingestion.csv", show_col_types = FALSE)
+snail_data <- read_csv("Data/raw/Snail_Microfiber_Ingestion.csv", show_col_types = FALSE)
 summary(snail_data)
 
 #characters should be factors in my dataset

@@ -31,4 +31,6 @@ ggplot(snail_data_long, aes(x = Treatment_Group, y = Microfiber_Count)) +
                colour = "#6A0DAD") +
 theme(legend.position = "none")
 
-## Grade: PENDING, let us know when the issues are fixed.
+## Grade: 2.0/3
+
+## JD: Clear explanations in README. It again took me time to make this run. You had moved the files from where my notes had them, and were sometimes saying Data/ instead of data/ (an easy mistake to make, but causes problems on my system).
