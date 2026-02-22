@@ -10,6 +10,15 @@ My predictive plot calculates predicted values in different conditions, and can 
 
 My Inferential plot compares each treatment group to the overall mean. Since the confidence intervals in my high treatment group are past the dotted line, this indicates that my high treatment group is clearly higher than the overall mean. Since my control effect group is before the dotted line, this means that my control groups is clearly lower than the overall mean. My low and medium treatment groups touch the dotted line, and are therefore somewhat close to the overall mean. This plot shows how my individual groups differ according to the mean across all of my groups, and helps me look at the magnitude of my responses.
 
+# Assignment 5 comments (JD)
+
+It's not OK to say “if it is normally distributed”, because it's not. You need to think about how you will determine if it is close enough, ideally without accepting the null. This is hard, you should talk to us about interpreting diagnostic plots. Given that you have a factor of 100 in your exposure, it's not likely that you will have anything like normality on a linear scale, and you should definitely be thinking about transformations.
+
+You should never imply that a P value measures “magnitude of [a] difference”
+
+It's generally better to use Hedges' g instead of Cohen's d. With more than one group, it's not exactly clear how Cohen's d applies. Do you mean you will compare each group separately for differences with “low” instead of control? Or something else?
+
+Grade 1.8/3
 
 #Assignment 3 - IN
 
